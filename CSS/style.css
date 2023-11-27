@@ -1,0 +1,119 @@
+
+*{
+  box-sizing:border-box;
+}
+
+body{ 
+    background-image: url(../imagenes/fondo.jpg)
+}
+
+ .encuadre {
+  border:300px; 
+  padding: 0px; 
+  width: 1100px;  ;
+  background-color: #f0f0f0; 
+  margin-left: 65px; 
+ }
+ .encuadre h1 {
+  font-size: 70px;
+  font-family: 'Jacques Francois Shadow', cursive;
+  font-family: 'Press Start 2P', cursive;
+  color: #333; 
+  text-align: center; 
+  margin-top: 0%;
+}
+
+.encuadre p {
+  font-size: 40px; 
+  font-family: 'Jacques Francois Shadow', cursiva;
+  color: #666; 
+  margin-left: 10%;
+}
+
+ header .menu_container{
+  display: flex;
+  justify-content: center;
+ }
+  
+
+header .btn_menu{
+  background-color:blueviolet;
+  width: 100px;
+  height: 55px;
+  border-radius: 200%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  color:black;
+  margin:10px;
+}
+header .btn_menu:hover {
+  transform: rotate(60deg);
+ 
+}
+
+footer {
+  border-style: double;
+  width: 450px;
+  height: 60px;
+  background-color: yellow;
+  text-align: center;
+  margin-top: 250px;
+}
+.imagenes{
+  display:flex;
+  justify-content: center;
+  margin: 40px;
+}
+.imagenTetris{
+  margin-right: 60px;
+}
+main .imagenes:hover {
+ transform: scaleY(1.5);
+ transition: all 2seg;
+ 
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+

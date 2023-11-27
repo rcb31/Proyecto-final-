@@ -1,0 +1,91 @@
+
+
+body{
+    background-color:darkviolet;
+  
+}
+
+ p{
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+    font-style: italic;
+    
+}
+ img{
+    margin-left: 10px; 
+}
+
+.logo{
+    display:flex;
+    justify-content: center;
+    animation-name: movimiento;
+    animation-duration: 5s;
+}
+
+@keyframes movimiento{
+    from {
+      transform : translateY(-300px);
+    }
+    to {
+      transform : translateY(0);
+    }
+}
+
+  h1{
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
+    color:chartreuse;
+    margin-left: 150px;
+  }
+  h2{
+    text-decoration-line: underline; 
+    text-align: center;
+    color: black;
+  }
+    
+   
+.formulario-container > form {
+background-color:blueviolet;
+display:flex;
+flex-direction: column;
+align-items: center;
+width: fit-content;
+margin-left: 400px;
+color: chartreuse;
+}
+ 
+
+ input[type] {
+  display: flex;
+  margin: 10px;
+  box-shadow: 2px 2px 2px blue;
+  border: ridge;
+
+ }
+  
+  #texto_multilinea{
+   border: ridge;
+   resize: none;
+   box-shadow: 2px 2px 2px blue;
+ 
+  }
+ 
+input[type="submit"] {
+    display: flex;
+    border-radius: 30%;
+    width: 90px; 
+    height: 30px;
+    background-color:aquamarine;
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: 200px;
+    width: fit-content;
+  
+  }
+    
+ label{
+  margin-right: 5px;
+  font-size: large;
+  font-weight: bold;
+ }
